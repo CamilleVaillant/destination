@@ -1,0 +1,157 @@
+@font-face{
+    font-family: "Roboto Regular";
+    src: url(../font/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../font/roboto/Roboto-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h2{
+    font-family: Roboto Bold;
+}
+
+header{
+    background-color: grey;
+    display: flex;
+    justify-content: flex-end;
+    justify-content:space-around;
+    padding-left: 50rem;
+    height: 2rem;
+    align-items: center;
+    
+}
+
+main{
+    padding: 0 2rem;
+    display: flex;
+    justify-content:space-evenly;
+}
+.paris{
+    background-image: url(../image/paris.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    border: 0px solid;
+    width: 100%;
+    height: 60%;
+    bottom: 40%;
+
+}
+card1{
+    border: 2px solid black;
+    position: relative;
+    width: 300px;
+    height: 450px;
+    box-shadow: 5px 5px 5px gray ;
+}
+h2{
+    padding-top: 90%;
+    margin-left: 1rem;
+}
+p{
+    margin: 1rem 1rem;
+}
+
+.btnparis{
+    display: flex;
+    align-items: flex-end;
+    background-color: blueviolet;
+    display: inline-block;
+    position: relative;
+    border: 1px color blueviolet;
+    margin-left: 33%;
+    width:7rem;
+    height:20px;
+    text-align: center;
+}
+.btnparis:hover{
+    color: black;
+    background-color: gold;
+}
+
+.tokyo{
+    background-image: url(../image/tokyo.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    border: 0px solid;
+    width: 100%;
+    height: 60%;
+    bottom: 40%;
+}
+
+card2{
+    border: 2px solid black;
+    position: relative;
+    width: 300px;
+    height: 450px;
+    box-shadow: 5px 5px 5px gray ;
+}
+
+.btntokyo{
+    display: flex;
+    align-items: flex-end;
+    background-color:red;
+    display: inline-block;
+    position: relative;
+    border: 1px color red;
+    margin-left: 33%;
+    width:7rem;
+    height:20px;
+    text-align: center;
+}
+
+.btntokyo:hover{
+    color: black;
+    background-color: gold;
+}
+
+.newyork{
+    background-image: url(../image/new-york.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    border: 0px solid;
+    width: 100%;
+    height: 60%;
+    bottom: 40%;
+}
+
+card3{
+    border: 2px solid black;
+    position: relative;
+    width: 300px;
+    height: 450px;
+    box-shadow: 5px 5px 5px gray ;
+}
+
+.btnnewyork{
+    display: flex;
+    align-items: flex-end;
+    background-color:blue;
+    display: inline-block;
+    position: relative;
+    border: 1px color blue ;
+    margin-left: 30%;
+    width:8rem;
+    height:20px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.btnnewyork:hover{
+    color: black;
+    background-color: gold;
+}
+a:hover{
+    color: gold;
+}
